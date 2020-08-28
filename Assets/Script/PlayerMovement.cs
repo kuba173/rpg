@@ -12,7 +12,10 @@ public enum PlayerState
     idle
 }
 public class PlayerMovement : MonoBehaviour
-{ public Camera cam;
+{
+    
+    
+    public Camera cam;
 
     public float   speed;
    public PlayerState currentState;
@@ -36,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {Application.targetFrameRate = 60;
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();

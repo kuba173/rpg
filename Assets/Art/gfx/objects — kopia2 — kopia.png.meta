@@ -1,17 +1,33 @@
 fileFormatVersion: 2
 guid: 9d105deb1e90f91418cccc47bb5a4d5a
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: "objects \u2014 kopia2 \u2014 kopia_0"
-    21300002: "objects \u2014 kopia2 \u2014 kopia_1"
-    21300004: "objects \u2014 kopia2 \u2014 kopia_2"
-    21300006: "objects \u2014 kopia2 \u2014 kopia_3"
-    21300008: "objects \u2014 kopia2 \u2014 kopia_4"
-    21300010: "objects \u2014 kopia2 \u2014 kopia_5"
-    21300012: "objects \u2014 kopia2 \u2014 kopia_6"
-    21300014: "objects \u2014 kopia2 \u2014 kopia_7"
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: "objects \u2014 kopia2 \u2014 kopia_0"
+  - first:
+      213: 21300002
+    second: "objects \u2014 kopia2 \u2014 kopia_1"
+  - first:
+      213: 21300004
+    second: "objects \u2014 kopia2 \u2014 kopia_2"
+  - first:
+      213: 21300006
+    second: "objects \u2014 kopia2 \u2014 kopia_3"
+  - first:
+      213: 21300008
+    second: "objects \u2014 kopia2 \u2014 kopia_4"
+  - first:
+      213: 21300010
+    second: "objects \u2014 kopia2 \u2014 kopia_5"
+  - first:
+      213: 21300012
+    second: "objects \u2014 kopia2 \u2014 kopia_6"
+  - first:
+      213: 21300014
+    second: "objects \u2014 kopia2 \u2014 kopia_7"
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,6 +47,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -65,8 +82,10 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -77,6 +96,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -96,6 +116,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b099e75ecb30dde4982f2b81ee50bf17
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -116,6 +137,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 89d347562f2c0354e9e73bbdad7b5d46
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -136,6 +158,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dd040f509c8409a4db042b3f542f3b3e
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -156,6 +179,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e09cdf4ddd4993c41a4ca44f028dcfe3
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -176,6 +200,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c2ce82c798c51aa4ba0ff40d49870362
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -196,6 +221,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 95bd19e8225a9894f90992cd819e9d87
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -216,6 +242,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c3df384f395372c45b9d067fea7e9f4d
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -236,6 +263,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b413cfbead83e624983dd8f71e83fd0c
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -244,10 +272,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: c4f6eeb5fad5de442a126324811baedb
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
